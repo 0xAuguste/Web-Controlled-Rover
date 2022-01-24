@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Controller</title>
+	<style type="text/css">
+		body {
+			font-family: Helvetica;
+			background: #2f3030;
+			color: white;
+		}
+		h1 {
+			text-align: center;
+			margin-bottom: 3rem;
+			font-weight: lighter;
+		}
+		img {
+			margin: 0 40px 0 30px;
+			display: block;
+			float: left;
+			border: 6px solid #611000;
+		}
+		#ctrl-pad {
+			float: right;
+			text-align: center;
+			width: 20%;
+			display: block;
+			border-style: solid;
+			background-color: grey;
+			border: 1px solid grey;
+			border-radius: 20px;
+			position: relative;
+			right: 11rem;
+			top: 5rem;
+			padding: 1rem;
+		}
+		#ctrl-pad > a {
+			color: #2f3030;
+			font-size: 3rem;
+			margin: 30px;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>Controller</h1>
+	<img src="/video_feed" width="50%">
+	<br>
+
+	<div id="ctrl-pad">
+	<a href="/go">Go</a>
+	<br>
+	<a href="/accelerate">^</a>
+	<br>
+	<a href="/left"><</a>
+	<a href="/right">></a>
+	<br>
+	<a href="/decelerate">v</a>
+	<br>
+	<a href="/stop">Stop</a>
+	</div>
+</body>
+</html>
